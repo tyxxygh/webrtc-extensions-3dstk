@@ -1,11 +1,11 @@
-M62 WebRTC Native and UWP enhancements
+WebRTC Native and UWP extensions for 3D Streaming Toolkit
 =======
 
 This repo contains all the patches and extensions made to WebRTC for the [3D Streaming Toolkit project](https://github.com/CatalystCode/3DStreamingToolkit), enabling building powerful stereoscopic 3D experiences that run on the cloud and stream to devices. Changes include:
 
 #### WebRTC M62 native:
 
-- [NvPipe](https://github.com/anderm/NvPipe/tree/low-latency-optimization) integration in the H264 encoder - zero latency video compression library for interactive remoting applications
+- [NvPipe](https://github.com/3DStreamingToolkit/NvPipe/tree/low-latency-optimization) integration in the H264 encoder - zero latency video compression library for interactive remoting applications
 - Included ffmpeg for client decoding and openh264 for encoding on machines with no Nvidia GPU 
 - Video frame extensions to allow pointers of RGB and texture data to be passed to the encoder
 - RTP package header extensions to allow HoloLens frame prediction timestamps to be synched with the encoded frame 
@@ -23,7 +23,7 @@ From your terminal, please clone the git repository:
 <br />
 <pre>
 <code>
-git clone --recursive -b 3DStreamingToolkit-M62-release https://github.com/anderm/ortclib-sdk.git 3DStreamingToolkit-M62-release
+git clone --recursive https://github.com/3DStreamingToolkit/webrtc-extensions-3dstk.git
 </code>
 </pre>
 <br />
@@ -43,18 +43,18 @@ IMPORTANT NOTES:
 	https://help.github.com/articles/dealing-with-line-endings/
 	https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#__code_core_autocrlf_code (section core.autocrlf)  
 2) Visual Studio 2017 is required
-3) Latest supported Win 10 SDK is 10.0.14393.x
+3) Minimum supported Win 10 SDK is 10.0.14393.x
 
 HOW TO BUILD FOR WINDOWS
 ----------------------------
 In order to build the native and UWP libraries required in 3D Streaming Toolkit, you need to run a batch script.
 
-1) Run build3DToolkitLibs script, from your terminal:
+1) Run build3DSTKLibs script, from your terminal:
 <br />
 <pre>
 <code>
-cd 3dtoolkit-M62-release
-bin\build3DToolkitLibs.bat
+cd webrtc-extensions-3dstk
+bin\build3DSTKLibs.bat
 </code>
 </pre>
 <br />
