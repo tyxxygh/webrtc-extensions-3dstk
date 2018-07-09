@@ -3,19 +3,14 @@
 	url = https://github.com/ortclib/ortclib.org.git
 [submodule "bin"]
 	path = bin
-	url = https://github.com/ortclib/ortclib-scripts.git
+	url = https://github.com/3DStreamingToolkit/ortclib-scripts
+	branch = 3dstk-m62-release
 [submodule "webrtc/xplatform/gyp"]
 	path = webrtc/xplatform/gyp
 	url = https://github.com/webrtc-uwp/gyp.git
 [submodule "webrtc/xplatform/usrsctp"]
 	path = webrtc/xplatform/usrsctp
 	url = https://github.com/webrtc-uwp/usrsctp.git
-[submodule "webrtc/xplatform/webrtc"]
-	path = webrtc/xplatform/webrtc
-	url=https://github.com/webrtc-uwp/zzz-obsolete.webrtc.git
-[submodule "webrtc/xplatform/chromium-pruned"]
-	path = webrtc/xplatform/chromium-pruned
-	url = https://github.com/webrtc-uwp/chromium-pruned.git
 [submodule "webrtc/xplatform/opus"]
 	path = webrtc/xplatform/opus
 	url = https://github.com/webrtc-uwp/opus.git
@@ -46,9 +41,6 @@
 [submodule "webrtc/xplatform/boringssl"]
 	path = webrtc/xplatform/boringssl
 	url = https://github.com/webrtc-uwp/boringssl.git
-[submodule "webrtc/xplatform/googlemock"]
-	path = webrtc/xplatform/googlemock
-	url = https://chromium.googlesource.com/external/googlemock
 [submodule "webrtc/xplatform/yasm/binaries"]
 	path = webrtc/xplatform/yasm/binaries
 	url = https://chromium.googlesource.com/chromium/deps/yasm/binaries
@@ -84,7 +76,8 @@
 	url = https://github.com/ortclib/ortclib-apple.git
 [submodule "webrtc/windows"]
 	path = webrtc/windows
-	url = https://github.com/webrtc-uwp/webrtc-windows.git
+	url = https://github.com/3DStreamingToolkit/webrtc-windows.git
+	branch = 3dstk-m62-release
 [submodule "common/windows/samples/PeerCC"]
 	path = common/windows/samples/PeerCC
 	url = https://github.com/webrtc-uwp/PeerCC.git
@@ -100,3 +93,56 @@
 [submodule "common/windows/samples/AppRTC"]
 	path = common/windows/samples/AppRTC
 	url = https://github.com/webrtc-uwp/AppRTC.git
+[submodule "webrtc/xplatform/buildtools"]
+	path = webrtc/xplatform/buildtools
+	url = https://github.com/webrtc-uwp/buildtools.git
+[submodule "webrtc/xplatform/depot_tools"]
+	path = webrtc/xplatform/depot_tools
+	url = https://github.com/webrtc-uwp/depot_tools.git
+[submodule "webrtc/xplatform/gflags-build"]
+	path = webrtc/xplatform/gflags-build
+	url = https://github.com/webrtc-uwp/gflags-build.git
+[submodule "webrtc/xplatform/googlemock"]
+	path = webrtc/xplatform/googlemock
+	url = https://github.com/webrtc-uwp/googlemock.git
+[submodule "webrtc/linux"]
+	path = webrtc/linux
+	url = https://github.com/webrtc-uwp/webrtc-linux.git
+[submodule "ortc/xplatform/templates"]
+	path = ortc/xplatform/templates
+	url = https://github.com/ortclib/templates
+[submodule "webrtc/xplatform/llvm/libcxx"]
+	path = webrtc/xplatform/llvm/libcxx
+	url = https://github.com/webrtc-uwp/libcxx.git
+[submodule "webrtc/xplatform/llvm/libcxxabi"]
+	path = webrtc/xplatform/llvm/libcxxabi
+	url = https://github.com/webrtc-uwp/libcxxabi.git
+[submodule "webrtc/xplatform/webrtc"]
+	path = webrtc/xplatform/webrtc
+	url = https://github.com/3DStreamingToolkit/webrtc.git
+	branch = 3dstk-m62-release
+[submodule "webrtc/xplatform/chromium/base"]
+	path = webrtc/xplatform/chromium/base
+	url = https://github.com/webrtc-uwp/chromium-base.git
+[submodule "webrtc/xplatform/chromium/build"]
+	path = webrtc/xplatform/chromium/build
+	url = https://github.com/webrtc-uwp/chromium-build.git
+[submodule "webrtc/xplatform/chromium/testing"]
+	path = webrtc/xplatform/chromium/testing
+	url=https://github.com/webrtc-uwp/chromium-testing
+[submodule "webrtc/xplatform/chromium/third_party"]
+	path = webrtc/xplatform/chromium/third_party
+	url = https://github.com/3DStreamingToolkit/chromium-third_party
+	branch = 3dstk-m62-release
+[submodule "webrtc/xplatform/chromium/tools"]
+	path = webrtc/xplatform/chromium/tools
+	url = https://github.com/webrtc-uwp/chromium-tools.git
+[submodule "webrtc/apple"]
+	path = webrtc/apple
+	url = https://github.com/webrtc-uwp/webrtc-apple.git
+[submodule "webrtc/xplatform/ffmpeg"]
+	path = webrtc/xplatform/ffmpeg
+	url = https://chromium.googlesource.com/chromium/third_party/ffmpeg.git
+[submodule "webrtc/xplatform/openh264/src"]
+	path = webrtc/xplatform/openh264/src
+	url = https://chromium.googlesource.com/external/github.com/cisco/openh264
