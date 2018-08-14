@@ -1,7 +1,7 @@
 WebRTC Native and UWP extensions for 3D Streaming Toolkit
 =======
 
-This repo contains all the patches and extensions made to WebRTC for the [3D Streaming Toolkit project](https://github.com/CatalystCode/3DStreamingToolkit), enabling building powerful stereoscopic 3D experiences that run on the cloud and stream to devices. Changes include:
+This repo contains all the patches and extensions made to WebRTC for the [3D Streaming Toolkit project](https://github.com/3DStreamingToolkit/3DStreamingToolkit), enabling building powerful stereoscopic 3D experiences that run on the cloud and stream to devices. Changes include:
 
 #### WebRTC M62 native:
 
