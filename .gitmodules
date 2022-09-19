@@ -3,7 +3,7 @@
 	url = https://github.com/ortclib/ortclib.org.git
 [submodule "bin"]
 	path = bin
-	url = https://github.com/3DStreamingToolkit/ortclib-scripts
+	url = https://github.com/tyxxygh/ortclib-scripts
 	branch = 3dstk-m62-release
 [submodule "webrtc/xplatform/gyp"]
 	path = webrtc/xplatform/gyp
@@ -107,7 +107,7 @@
 	url = https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/linux"]
 	path = webrtc/linux
-	url = https://github.com/webrtc-uwp/webrtc-linux.git
+	url = https://github.com/tyxxygh/webrtc-linux.git
 [submodule "ortc/xplatform/templates"]
 	path = ortc/xplatform/templates
 	url = https://github.com/ortclib/templates
@@ -119,7 +119,7 @@
 	url = https://github.com/webrtc-uwp/libcxxabi.git
 [submodule "webrtc/xplatform/webrtc"]
 	path = webrtc/xplatform/webrtc
-	url = https://github.com/3DStreamingToolkit/webrtc.git
+	url = https://github.com/tyxxygh/webrtc.git
 	branch = 3dstk-m62-release
 [submodule "webrtc/xplatform/chromium/base"]
 	path = webrtc/xplatform/chromium/base
