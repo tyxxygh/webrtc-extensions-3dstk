@@ -127,6 +127,7 @@
 [submodule "webrtc/xplatform/chromium/build"]
 	path = webrtc/xplatform/chromium/build
 	url = https://github.com/tyxxygh/chromium-build.git
+	branch = 3dstk-m62-release
 [submodule "webrtc/xplatform/chromium/testing"]
 	path = webrtc/xplatform/chromium/testing
 	url=https://github.com/webrtc-uwp/chromium-testing
